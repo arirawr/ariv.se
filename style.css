@@ -1,8 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Nova+Mono);
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Roboto; }
+  font-family: Nova Mono; }
 
 section {
   display: flex;
@@ -17,11 +18,34 @@ section {
   #cover h1 {
     font-size: 40vw; }
 
-#manifesto {
+.i-am {
   background-color: #222;
   color: #eee;
   padding: 5vw; }
-  #manifesto p {
+  .i-am p {
+    font-size: 28px; }
+
+.i-am-2 {
+  background-color: #eee;
+  color: #222;
+  padding: 5vw; }
+  .i-am-2 p {
+    font-size: 28px; }
+
+#opportunities {
+  flex-direction: column;
+  padding: 5vw; }
+  #opportunities h3 {
+    font-size: 28px; }
+  #opportunities p {
     font-size: 20px; }
+  #opportunities li {
+    display: inline;
+    margin: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 22px; }
+  #opportunities * {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
