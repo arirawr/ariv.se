@@ -16,7 +16,7 @@ section {
 
 /* CUSTOM */
 #cover {
-  height: 90vh;
+  height: 100vh;
   background-color: #eee;
   color: #222; }
   #cover h1 {
@@ -24,7 +24,8 @@ section {
 
 #blog-promo {
   background-color: #FFBF00;
-  color: white; }
+  color: white;
+  padding: 5vw; }
   #blog-promo p {
     font-size: 32px; }
 
