@@ -1,73 +1,71 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Open Sans; }
+  font-family: 'Open Sans';
+  font-weight: 400; }
 
-a {
-  text-decoration: none;
-  color: inherit; }
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-/* CUSTOM */
-#cover {
-  height: 100vh;
-  background-color: #eee;
-  color: #222; }
-  #cover h1 {
-    font-size: 40vw; }
-
-#blog-promo {
+body {
   background-color: #FFBF00;
-  color: white;
-  padding: 5vw; }
-  #blog-promo p {
-    font-size: 32px; }
-
-.i-am {
-  background-color: #222;
-  color: #eee;
-  padding: 5vw; }
-  .i-am p {
-    font-size: 28px; }
-
-.i-am-2 {
-  background-color: #eee;
-  color: #222;
-  padding: 5vw; }
-  .i-am-2 p {
-    font-size: 28px; }
-
-#opportunities {
-  flex-direction: column;
-  padding: 5vw; }
-  #opportunities h3 {
-    font-size: 28px; }
-  #opportunities p {
-    font-size: 20px; }
-  #opportunities li {
-    display: inline;
-    margin: 10px;
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 22px; }
-  #opportunities * {
-    margin-bottom: 20px; }
-
-footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: #222;
-  font-size: 22px;
-  color: #eee;
-  padding: 2vw; }
-  footer i {
-    margin: 0 10px; }
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0; }
+  body .content-box {
+    background-color: white;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+    text-align: center; }
+    body .content-box .bold {
+      font-weight: 600; }
+    body .content-box h3 {
+      padding: 0 5em; }
+    body .content-box .services {
+      line-height: 2em; }
+      body .content-box .services span {
+        padding: 0 1em;
+        display: inline-block; }
+    body .content-box .slider, body .content-box #left-slide, body .content-box #right-slide {
+      display: inline;
+      padding: 1.5em;
+      cursor: pointer; }
+  @media screen and (max-width: 600px) {
+    body .content-box {
+      padding: 2em; }
+      body .content-box h1 {
+        font-size: 1.5em; }
+      body .content-box h2 {
+        font-size: 1em; }
+      body .content-box h3 {
+        padding: 0;
+        font-size: 1em; } }
+  body .border-strip {
+    background-color: #FFBF00;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .border-strip a {
+      display: inline-block;
+      font-size: 2em;
+      padding: 1vw;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: 600; }
+  body .links {
+    justify-content: flex-end;
+    width: 90vw; }
+    body .links a {
+      font-size: 1.5em; }
+  body .social {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,99 +1,106 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+//colours
+$ari: #FFBF00;
+$white: #FFFFFF;
+
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: Open Sans;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  font-weight: 400;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-}
+body {
+  background-color: $ari;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
 
-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+  .content-box {
+    background-color: white;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+    text-align: center;
 
-/* CUSTOM */
+    .bold {
+      font-weight: 600;
+    }
 
-#cover {
-	height: 100vh;
-	background-color: #eee;
-	color: #222;
+    h3 {
+      padding: 0 5em;
+    }
 
-	h1 {
-		font-size: 40vw;
-	}
-}
+    .services {
+      line-height: 2em;
+      span {
+        padding: 0 1em;
+        display: inline-block;
+      }
+    }
 
-#blog-promo {
-	background-color: #FFBF00;
-	color: white;
-	padding: 5vw;
-	p {
-		font-size: 32px;
-	}
-}
+    .slider, #left-slide, #right-slide {
+      display: inline;
+      padding: 1.5em;
+      cursor: pointer;
+    }
+  }
 
-.i-am {
-	background-color: #222;
-	color: #eee;
-	padding: 5vw;
+  @media screen and (max-width: 600px) {
+    .content-box {
+      padding: 2em;
 
-	p {
-		font-size: 28px;
-	}
-}
+      h1 {
+        font-size: 1.5em;
+      }
 
-.i-am-2 {
-	background-color: #eee;
-	color: #222;
-	padding: 5vw;
+      h2 {
+        font-size: 1em;
+      }
 
-	p {
-		font-size: 28px;
-	}
-}
+      h3 {
+        padding: 0;
+        font-size: 1em;
+      }
+    }
+  }
 
-#opportunities {
-	flex-direction: column;
-	padding: 5vw;
+  .border-strip {
+    background-color: $ari;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-	h3 {
-		font-size: 28px;
-	}
+    a {
+      display: inline-block;
+      font-size: 2em;
+      padding: 1vw;
+      color: $white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
 
-	p {
-		font-size: 20px;
-	}
+  .links {
+    justify-content: flex-end;
+    width: 90vw;
 
-	li {
-		display: inline;
-		margin: 10px;
-		margin-left: 10px;
-		font-weight: bold;
-		font-size: 22px;
-	}
+    a {
+      font-size: 1.5em;
+    }
+  }
 
-	* {
-		margin-bottom: 20px;
-	}
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #222;
-	font-size: 22px;
-	color: #eee;
-	padding: 2vw;
-
-	i {
-		margin: 0 10px;
-	}
+  .social {
+    text-align: center;
+  }
 }
