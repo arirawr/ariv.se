@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/ariari
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ariari.io
+  * I am ariari (https://keybase.io/ariari) on keybase.
+  * I have a public key with fingerprint A97A 279A 63B8 5D19 1499  75B0 9222 A2EF 94BB 3129
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101390febfc86583e36314fe261d789b6337668e7cbd7899b5374376372d52846670a",
+            "fingerprint": "a97a279a63b85d19149975b09222a2ef94bb3129",
+            "host": "keybase.io",
+            "key_id": "9222a2ef94bb3129",
+            "kid": "0101390febfc86583e36314fe261d789b6337668e7cbd7899b5374376372d52846670a",
+            "uid": "9e7c396326e3aaba7256f504c5d87d19",
+            "username": "ariari"
+        },
+        "service": {
+            "hostname": "ariari.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471394333,
+    "expire_in": 157680000,
+    "prev": "8697910fb261afb91387fff20a055e35387e62d66dd6c89f9331c53d05e74fbd",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUl1IFFEUXn9K/FssrQglckok2WJm7syduVtmmikhhVhgZrjMnbmjgza77o5r
+/mw9lIVYoKUUBgo+ZElRKCgShuCLZIhJWj0EERgkmCaBZSHd0XoIeuxy4XLO/c53
+vu9wWuMjHOFhN5mexfan3L6wiU/YUTzQn9rAYK9Wx7gbmEqy/pAqjQQsT6WhMW6G
+5VgOIFYnWFdlKMqAAAg4QSc85DRJRhgCIEEoE0nFdoywCCSBpoDEayIvCxBKrMK4
+GN0wy4nf5zdMi9IqSFJ4CSkQYFnUOMQJCEkiZhHP8wpPdCRgDDge0cIKb8CuoOKw
+EiAHDC/N0cCzLu8f+P+su2ajD8UBBAEPCVAUrEi8CHWRFVRRkyWq3wYGiN9UzhPb
+nd+glwm5GJoLGiqxx2r7+Ot/w4rP77W8qreKpissy+e2q6w6nw2rJdjzm8CDDVOj
+E6QFQeIPGF6TcXMUqVqGzcgJEnUrAABcDLngM/zEY9gIUYIyS4/dhgQppQyRhDhW
+x3QMSpGOEQdkSdd1nlVYUSRApCGBvAahpkFVRjoCgFNFoLEikQQda4ztqdr0Mm6B
+6lTKKWfAKDcVq8ZPmFBMc1hKpCMs3LF5U7i9W46Y6IQ/C+dCUWuH38KSQx8OmoEJ
+oevqxcFHghndl/Rield6z47G+fQHU3Jkz1m24H1HrPZ4dKl3aMZZGru9su7hSo4V
+hN8yctSJgpHRyLyspNaTcaW1nYuhey0L11/uHW9zduv5sTd2Nxwp7qpeuNZydzL/
+x/KdRLMpO9jZOVdSeIVsm09tW5598k7/kshkf07j18bLht/0l02eTrj9bEv/rcy4
+zBWnsKe9baxUyzj6NSLaep0l1499Dx9Kq8/d2nH8XLJVNbJ67PlcY2/Mq50DK8vJ
+05dSZhZ/Ns3WF+knIj8OxhRrhfej+jZHsFPOrL7u2eYOY+3U/uHx1TPxrst58WVp
+oZHczCXrFw==
+=PDon
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ariari
+
+==================================================================
